@@ -9,7 +9,7 @@ module.exports = {
       user : 'root',
       host : '164.90.154.134',
       ref  : 'origin/main',
-      repo : 'git@github.com:bonheur15/SimpleExpressServer.git',
+      repo : 'https://github.com/bonheur15/SimpleExpressServer.git',
       path : '/home/app',
       'pre-deploy-local': '',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
