@@ -8,7 +8,7 @@ module.exports = {
     production : {
       user : 'root',
       host : '164.90.154.134',
-      ref  : 'origin/master',
+      ref  : 'origin/main',
       repo : 'https://github.com/bonheur15/SimpleExpressServer.git',
       path : '/home/app',
       'pre-deploy-local': '',
